@@ -143,7 +143,7 @@ def on_entry_changed(event):
 
 # === 窗口主体 ===
 win = tk.Tk()
-win.title(f"统一格式Word生成器 V{version}")
+win.title(f"统一格式Word生成器 v{version}")
 win_center(win,395,640)
 if len(school)>=4:
     win_center(win,395+(len(school)-4)*16,640)
