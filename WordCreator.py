@@ -143,7 +143,7 @@ def on_entry_changed(event):
 
 # === 窗口主体 ===
 win = tk.Tk()
-win.title("统一格式Word生成器")
+win.title(f"统一格式Word生成器 V{version}")
 win_center(win,395,640)
 if len(school)>=4:
     win_center(win,395+(len(school)-4)*16,640)
@@ -276,7 +276,7 @@ label_info.grid(row=11, column=0, columnspan=3, padx=3, pady=13)
 
 def open_github(event):
     import webbrowser
-    webbrowser.open("https://github.com/dlam567")
+    webbrowser.open("https://github.com/dlam567/WordCreator/releases")
 
 label_info.bind('<Button-1>', open_github)
 
