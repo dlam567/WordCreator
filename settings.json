@@ -1,0 +1,15 @@
+{
+    "titleFontSize":12,
+    "titleFontBold":"True",
+    "titleFont":"幼圆",
+    "textFont":"宋体",
+    "textFontSize":12,
+    "rowSpacing":1.5,
+    "leftPageSpacing[cm]":0.5,
+    "rightPageSpacing[cm]":0.5,
+    "topPageSpacing[cm]":0.5,
+    "bottomPageSpacing[cm]":0.5,
+    "school":"福州十中",
+    "grade":["高一","高二","高三"],
+    "class":[1,2,3,4,5,6,7,8]
+}
